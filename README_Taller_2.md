@@ -5,18 +5,19 @@ Este repositorio contiene un resumen estructurado del **Taller 2**, enfocado en 
 ---
 
 ## Índice
-- [1. Código ASCII: historia, funcionamiento y descripción](#1-código-ascii-historia-funcionamiento-y-descripción)
-  - [1.1. ¿Qué es?](#11-qué-es)
-  - [1.2. ¿Cómo funciona?](#12-cómo-funciona)
-  - [1.3. Importancia](#13-importancia)
-  - [1.4. Tabla parcial de referencia](#14-tabla-parcial-de-referencia)
-- [2. RS-232: conectores DB9 y DB25](#2-rs232-conectores-db9-y-db25)
-  - [2.1. Señales típicas en DB9](#21-señales-típicas-en-db9)
-  - [2.2. Señales típicas en DB25](#22-señales-típicas-en-db25)
-- [3. RS-232: formato de la trama](#3-rs232-formato-de-la-trama)
-  - [3.1. Estructura](#31-estructura)
-  - [3.2. Diagrama (ASCII)](#32-diagrama-ascii)
-- [Cómo usar este README](#cómo-usar-este-readme)
+- 1. Código ASCII: historia, funcionamiento y descripción
+  - 1.1. ¿Qué es?
+  - 1.2. Historia
+  - 1.3. ¿Cómo funciona?
+  - 1.4. Importancia
+  - 1.5. Tabla parcial de referencia
+- 2. RS-232: conectores DB9 y DB25
+  - 2.1. Señales típicas en DB9
+  - 2.2. Señales típicas en DB25
+- 3. RS-232: formato de la trama
+  - 3.1. Estructura
+ 
+
 
 ---
 
@@ -25,16 +26,19 @@ Este repositorio contiene un resumen estructurado del **Taller 2**, enfocado en 
 ### 1.1. ¿Qué es?
 **ASCII** (*American Standard Code for Information Interchange*) es un **sistema de codificación de caracteres** creado en **1963** por el comité **ANSI** para **unificar** la representación de letras, números y símbolos en computadoras.
 
-### 1.2. ¿Cómo funciona?
+## 1.2. Historia
+Nació para unificar la manera en que las computadoras representaban letras, números y símbolos. Antes, cada fabricante usaba sus propios códigos.
+
+### 1.3. ¿Cómo funciona?
 ASCII **asigna un número entero** a cada carácter y se **representa en binario** (históricamente 7 bits; hoy suele almacenarse en 8 bits). Ejemplos:
 - **A** → 65
 - **espacio** → 32
 - **0** (cero) → 48
 
-### 1.3. Importancia
+### 1.4. Importancia
 Fue la **base de la comunicación entre computadoras** y aún es clave en protocolos, archivos de texto, terminales y equipos industriales legados.
 
-### 1.4. Tabla parcial de referencia
+### 1.5. Tabla parcial de referencia
 | Carácter | Decimal | Binario (8 bits) |
 |---|---:|---|
 | (espacio) | 32 | 0010 0000 |
@@ -99,16 +103,7 @@ Una **trama RS-232** transmite un carácter por vez con la siguiente estructura 
 3. **Bit de paridad (opcional)**: verificación simple de errores (**par** o **impar**, entre otras opciones).
 4. **Bits de parada (Stop)**: **1** o más bits en **1** para indicar el final del carácter.
 
-### 3.2. Diagrama (ASCII)
-```
-Línea:   ──────┐┌─────────────── Datos (5–8 bits) ────────────────┐┌──────
-Nivel:        0 1 1 1 0 0 1 0 1 0 1 0  (ejemplo)                    1
-            Start     D0 D1 D2 D3 D4 D5 D6 D7      Paridad?       Stop
-```
 
----
 
-## Cómo usar este README
-- Copia este archivo como `README.md` en la raíz de tu repositorio de GitHub.
-- Si vas a documentar prácticas de laboratorio, crea una carpeta `assets/` para diagramas, fotografías de cableado y capturas de terminal.
-- Complementa con ejercicios: convertir texto a ASCII, configurar parámetros 8N1 (8 bits, sin paridad, 1 stop), y pruebas de loopback.
+
+
