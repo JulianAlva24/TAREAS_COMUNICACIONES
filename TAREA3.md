@@ -48,7 +48,6 @@ El **MAX232** es un CI que adapta niveles **TTL/CMOS (5 V)** a **RS-232 (≈ ±6
 
 ### 2.1. Diagrama (Mermaid)
 
-> GitHub renderiza Mermaid automáticamente. Este diagrama resume la **interconexión mínima** (no es un esquemático literal del datasheet).
 
 ```mermaid
 flowchart LR
@@ -196,5 +195,4 @@ Para MCUs a **3.3 V**, se prefiere **MAX3232** (misma topología, VCC 3.0–5.5 
 - **Analog Devices (Maxim) – MAX232**: https://www.analog.com/en/products/max232.html  
 - **Analog Devices (Maxim) – MAX3232 (familia)**: https://www.analog.com/media/en/technical-documentation/data-sheets/max3222-max3241.pdf
 
-> **Licencia**  
-> Este README es material original de documentación técnica con referencias a hojas de datos de TI/ADI. Puedes incluirlo en tu repositorio con atribución a las fuentes citadas.
+
