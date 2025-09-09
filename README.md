@@ -23,13 +23,18 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ## Inventario de sensores
 
 ### Sensor magnético para cilindro neumático
+<img width="486" height="286" alt="image" src="https://github.com/user-attachments/assets/41a16675-7ba7-4ce5-a0d4-155a82912070" />
+
 **Descripción.** Sensor de proximidad que detecta la posición del pistón dentro de un cilindro neumático gracias al imán incrustado en el pistón. Al pasar cerca, el campo magnético activa el sensor.  
 **Tipo de señal.** Digital (ON/OFF). Puede ser de tipo *reed switch* (contacto magnético) o de efecto Hall (electrónico).  
 **Aplicaciones.** Detección de posición en cilindros neumáticos, control de procesos automatizados y funciones de seguridad en sistemas de movimiento.
 
+
 ---
 
 ### Sensor de sonda de temperatura (Termopar)
+<img width="351" height="278" alt="image" src="https://github.com/user-attachments/assets/07e5ea54-091c-4fc6-8011-2896db9471d2" />
+
 **Descripción.** Conjunto de dos metales distintos unidos en un extremo; al variar la temperatura, se genera un voltaje proporcional. Es muy usado por su amplio rango y resistencia a altas temperaturas.  
 **Tipo de señal.** Analógica (mV), requiere acondicionamiento o módulo de adquisición. Existen varios tipos (K, J, T, etc.); el **Tipo K** es común.  
 **Rango típico (Tipo K).** −200 °C a 1350 °C.  
@@ -38,6 +43,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Termómetro infrarrojo (Extech IR100)
+<img width="319" height="430" alt="image" src="https://github.com/user-attachments/assets/9b4f831a-5272-4e65-a81f-79fd0864b437" />
+
 **Descripción.** Mide temperatura a distancia (sin contacto) detectando la radiación infrarroja de la superficie. Portátil y práctico para mediciones rápidas en superficies donde no es posible colocar sensores de contacto.  
 **Rango de medición.** −34 °C a 230 °C (−29 °F a 446 °F).  
 **Características.** Medición sin contacto, diseño compacto y cobertura de más del 90% de aplicaciones de superficie.  
@@ -46,6 +53,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Luxómetro digital
+<img width="455" height="417" alt="image" src="https://github.com/user-attachments/assets/9ce8fdb8-05e3-4ca6-b05f-1e979fd828fd" />
+
 **Descripción.** Instrumento para medir iluminancia (lux) sobre una superficie, con fotodiodo/celda fotoeléctrica que convierte luz en señal eléctrica proporcional.  
 **Rango típico.** Desde 0 lux (oscuridad total) hasta 200 000 lux o más (luz solar intensa).  
 **Aplicaciones.** Verificación de niveles de iluminación en interiores/exteriores, cumplimiento de normas en espacios de trabajo, control en laboratorios, fotografía y horticultura.
@@ -53,6 +62,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Sensor capacitivo
+<img width="311" height="316" alt="image" src="https://github.com/user-attachments/assets/0e24851f-6678-4f84-86fe-c1785064818f" />
+
 **Descripción.** Sensor de proximidad que detecta objetos **metálicos y no metálicos** (madera, vidrio, plástico, líquidos, etc.) por variación de capacitancia al acercarse a la superficie activa.  
 **Tipo de señal.** Usualmente digital (ON/OFF); algunos modelos ofrecen salida analógica.  
 **Rango típico.** Milímetros a varios centímetros (según modelo).  
@@ -61,6 +72,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Sensor inductivo
+<img width="295" height="265" alt="image" src="https://github.com/user-attachments/assets/881b00fb-a864-4263-a48f-730fa24797a0" />
+
 **Descripción.** Sensor de proximidad para detección **sin contacto** de objetos **metálicos** mediante un campo electromagnético generado por una bobina interna; al ingresar un metal, cambia la inductancia y se activa la salida.  
 **Tipo de señal.** Generalmente digital (ON/OFF); algunos modelos avanzados ofrecen analógica.  
 **Rango típico.** 1 mm a 60 mm (según tamaño y tipo de metal).  
@@ -69,6 +82,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Sensor de temperatura Pt100 (RTD)
+<img width="336" height="269" alt="image" src="https://github.com/user-attachments/assets/5232d63d-6a96-4bbb-9134-c8edcdcdb0f2" />
+
 **Descripción.** Detector de temperatura por resistencia (RTD) de platino. Su resistencia varía con la temperatura; “100” indica 100 Ω a 0 °C.  
 **Características.** Alta precisión y estabilidad a largo plazo; buena linealidad. Requiere acondicionamiento (p. ej., puente de Wheatstone o transmisor 4–20 mA).  
 **Rango típico.** −200 °C a +850 °C.  
@@ -77,6 +92,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Sensor de presión de aire
+<img width="266" height="337" alt="image" src="https://github.com/user-attachments/assets/3256aedc-35e8-4ee5-93c9-03361a4329cc" />
+
 **Descripción.** Mide presión relativa o absoluta en sistemas neumáticos, convirtiendo la fuerza ejercida por el aire en señal eléctrica proporcional.  
 **Tipo de señal.** Analógica (0–5 V, 0–10 V o 4–20 mA); algunos modelos entregan salida digital (I²C, SPI).  
 **Rango típico.** Desde pocos milibares hasta varios bares (según modelo).  
@@ -85,6 +102,8 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 ---
 
 ### Sensor fotoeléctrico
+<img width="295" height="336" alt="image" src="https://github.com/user-attachments/assets/8a652176-a93d-46ec-a2de-aa59767587e9" />
+
 **Descripción.** Detecta presencia/ausencia de objetos mediante un haz de luz (IR o láser). El emisor envía un rayo y el receptor lo recibe; la interrupción o reflexión del rayo permite detectar el objeto.  
 **Tipos principales.**
 - **Barreras (Through-beam):** emisor y receptor separados.  
@@ -125,9 +144,4 @@ Este repositorio contiene un resumen estructurado de los sensores disponibles en
 8. Honeywell, *Pressure Sensors*. Disponible en: https://sps.honeywell.com/us/en/products/sensors-and-switches/pressure-sensors  
 9. Omron Industrial Automation, *Photoelectric Sensors*. Disponible en: https://industrial.omron.mx/es/products/category/sensors/photoelectric-sensors
 
----
-
-> **Cómo usar este README**  
-> - Copia este archivo como `README.md` en la raíz de tu repositorio de GitHub.  
-> - Si deseas añadir imágenes/esquemáticos específicos de cada sensor, crea una carpeta `assets/` y enlázalas desde cada sección con Markdown.
 
