@@ -1,9 +1,7 @@
 # Tarea 4 — Comunicaciones Industriales
 
 **Autores:** Daniel Felipe Pinilla Daza · Julian Sebastian Alvarado Monroy  
-**Asignatura:** Comunicaciones Industriales / Redes Industriales  
-**Institución:** (según documento fuente)  
-**Documento base:** `Tarea_4_comuni.pdf`
+**Asignatura:** Comunicaciones Industriales 
 
 ---
 
@@ -141,9 +139,4 @@ Este repositorio documenta, de forma sintética y estructurada, la **Tarea 4 de 
 - Tanenbaum, A., & Wetherall, D. (2011). *Computer Networks (5th ed.).* Pearson.  
 - Zurawski, R. (2014). *Industrial Communication Technology Handbook (2nd ed.).* CRC Press.
 
----
-
-### Notas
-- Las **figuras** referenciadas (TSN, arquitecturas de bus, etc.) se encuentran en el PDF base.  
-- Este README prioriza **claridad y estudio**: puede usarse como guía rápida para exposición o repaso.
 
